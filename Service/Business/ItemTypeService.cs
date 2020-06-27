@@ -31,6 +31,11 @@ namespace Service.Business
             return RS;
         }
 
+        public IRequestResult Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IRequestResult GetAll()
         {
             var data = UOW.ItemTypes.GetAll().ToList();

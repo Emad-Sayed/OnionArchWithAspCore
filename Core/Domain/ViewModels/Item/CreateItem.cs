@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Domain
+namespace Core.Domain.ViewModels.Item
 {
-    public class Item : BasEntity
+    public class CreateItem
     {
         public string Name { get; set; }
         public float Price { get; set; }
         public DateTime ExpirationDate { get; set; }
         public int TypeId { get; set; }
-        public ItemType Type { get; set; }
-        public string scheduleId { get; set; }
     }
 }

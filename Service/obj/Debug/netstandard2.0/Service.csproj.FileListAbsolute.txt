@@ -8,9 +8,7 @@ C:\Users\hp\source\repos\OnionArchitecture\Service\obj\Debug\netstandard2.0\Serv
 C:\Users\hp\source\repos\OnionArchitecture\Service\obj\Debug\netstandard2.0\Service.dll
 C:\Users\hp\source\repos\OnionArchitecture\Service\obj\Debug\netstandard2.0\Service.pdb
 C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Core.dll
-C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Core.pdb
-C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\hp\source\repos\OnionArchitecture\Service\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
 C:\Users\hp\source\repos\OnionArchitecture\Service\obj\Debug\netstandard2.0\Service.csproj.CopyComplete

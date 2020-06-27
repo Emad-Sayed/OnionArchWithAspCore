@@ -111,6 +111,14 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "HangFire": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "HangFire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -262,6 +270,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "HangFire": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "HangFire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

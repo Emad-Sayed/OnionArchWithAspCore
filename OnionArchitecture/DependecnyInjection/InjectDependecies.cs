@@ -11,6 +11,7 @@ using Service.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using AutoMapper;
 using Core.Domain.Mapper;
+using Hangfire;
 
 namespace OnionArchitecture.DependecnyInjection
 {
@@ -22,6 +23,7 @@ namespace OnionArchitecture.DependecnyInjection
             services.AppServiceLibraryInjection();
             services.SwaggerInjection();
             services.MapperInjection();
+            services.HangFireInjection();
         }
 
         public static IServiceCollection AppRepositoryLibraryInjection(this IServiceCollection service)
@@ -59,6 +61,12 @@ namespace OnionArchitecture.DependecnyInjection
 
             IMapper mapper = mappingConfig.CreateMapper();
             service.AddSingleton(mapper);
+            return service;
+        }
+        public static IServiceCollection HangFireInjection(this IServiceCollection service)
+        {
+            service.AddHangfire(x => x.UseSqlServerStorage(Startup.Configuration.GetConnectionString("DefaultConnection")));
+            service.AddHangfireServer();
             return service;
         }
     }

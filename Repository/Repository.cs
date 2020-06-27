@@ -50,12 +50,12 @@ namespace Repository
 
         void IRepository<TEntity>.Remove(TEntity entity)
         {
-            throw new NotImplementedException();
+             Context.Set<TEntity>().Remove(entity);
         }
 
         TEntity IRepository<TEntity>.SingleOrDefault(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException();
+            return Context.Set<TEntity>().SingleOrDefault(predicate);
         }
 
         IEnumerable<TEntity> IRepository<TEntity>.Take(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate, System.Linq.Expressions.Expression<Func<TEntity, int>> order, int pageSize, int pageNumber)

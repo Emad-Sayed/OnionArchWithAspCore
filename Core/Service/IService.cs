@@ -9,5 +9,6 @@ namespace Core.Service
     {
         IRequestResult GetAll();
         IRequestResult Create(CreateModel model);
+        IRequestResult Delete(int id);
     }
 }

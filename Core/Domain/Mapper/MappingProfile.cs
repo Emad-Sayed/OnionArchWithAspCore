@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Core.Domain.ViewModels.Item;
 using Core.Domain.ViewModels.ItemType;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace Core.Domain.Mapper
         {
             CreateMap<CreateItemType, ItemType>();
             CreateMap<ItemType, ItemTypeView>();
+            CreateMap<CreateItem, Item>();
         }
     }
 }

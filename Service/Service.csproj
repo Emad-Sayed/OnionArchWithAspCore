@@ -15,8 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="EmailHandling\" />
     <Folder Include="SignalR\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HangFire" Version="1.7.11" />
+    <PackageReference Include="HangFire.SqlServer" Version="1.7.11" />
   </ItemGroup>
 
 </Project>
